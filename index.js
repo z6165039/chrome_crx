@@ -22,6 +22,9 @@ $(function(){
 		}else{
 			ids.forEach(id=>clearTimeout(id));
 		}
+		
+		$("div.article_content").removeAttr("style");
+		$(".hide-article-box").remove()
 	}
 	
 	expand();
